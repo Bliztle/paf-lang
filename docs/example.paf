@@ -1,0 +1,13 @@
+fn add(x: int, y: float) {
+    x + y
+}
+
+fn eight() {
+    let add3 = add|x: 3|;
+    add3(5)
+}
+
+fn main() {
+    let x = eight();
+    x
+}
